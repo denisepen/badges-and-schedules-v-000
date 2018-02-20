@@ -9,4 +9,11 @@ new_arr = []
   names.each {|name| new_arr << "Hello, my name is #{name}."}
 new_arr
      end
-# {|name|  "Hello, my name is #{name}."}
+     
+def assign_rooms(speakers)
+  speakers.each_with_index do |name, i|
+      "Hello, _____! You'll be assigned to room _____!"
+  end
+  end
+
+    
