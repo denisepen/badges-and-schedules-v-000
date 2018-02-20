@@ -9,5 +9,4 @@ new_arr = []
   names.each {|name| new_arr << "Hello, my name is #{name}."}
 new_arr
      end
-end
 # {|name|  "Hello, my name is #{name}."}
