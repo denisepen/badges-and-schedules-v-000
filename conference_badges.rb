@@ -1,7 +1,6 @@
 # Write your code here.
 def batch_badge_creator
   arr = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus",  "Matz"]
-  each.do |name|
-  puts "Hello, my name is #{name}."
+  each {|name| puts "Hello, my name is #{name}."}
 end
 end
