@@ -9,5 +9,3 @@ def batch_badge_creator
     new_array << each {|name| puts "Hello, my name is #{name}."}
     new_array
 end
-
-  
